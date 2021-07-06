@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/Purchase.css">
+    <title>進銷存</title>
+</head>
+
+<body>
+    <h1>進貨管理</h1>
+    <span>
+        <input type="button" value="返回上頁" onclick="location.href='../start.html'">
+        <input type="button" value="新增進貨資料" onclick="location.href='./CreatePurchase.html'">
+    </span>
+    <div>
+        <table id="PurTable">
+            <thead>
+                <tr id="top1">
+                    <th style="width: 60px;">查看</th>
+                    <th style="width: 300px;">訂單編號</th>
+                    <th style="width: 250px;">廠商名稱</th>
+                    <th style="width: 120px;">項目數量</th>
+                    <th style="width: 180px;">總金額</th>
+                </tr>
+            </thead>
+            
+        </table>
+    </div>
+</body>
+<script src="../jq_Js/jquery-3.4.1.js"></script>
+<script src="./JS/Purchase.js"></script>
+</html>

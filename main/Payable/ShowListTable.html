@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/ShowListTable.css">
+    <script src="../jq_Js/jquery-3.4.1.js"></script>
+    <title>進銷存</title>
+
+</head>
+<body>
+    <h1>應付帳款</h1>
+    <span>
+        <input type="button" value="回到首頁" onclick="location.href='../Start.html'">
+        <input type="button" value="重新查詢" onclick="location.href='./Payable.html'">
+    </span>
+    
+    <div id="fDiv">
+        <div><h3></h3></div>
+        <table>
+            <tr id="top1">
+                <td style="width: 120px;">日期</td>
+                <td style="width: 150px;">訂單編號</td>
+                <td style="width: 180px;">商品型號</td>
+                <td style="width: 180px;">商品名稱</td>
+                <td style="width: 50px;">進價</td>
+                <td style="width: 50px;">數量</td>
+                <td style="width: 50px;">折數</td>
+                <td style="width: 70px;">小計</td>
+            </tr>
+        </table>
+        <div id="insideDiv">
+            <label for="startDate">應付總額:</label></td>
+            <input type="text" id="sunTotal" readonly style="text-align: right;">
+        </div>
+    </div>
+    
+</body>
+<script src="./JS/ShowListTable.js"></script>
+</html>

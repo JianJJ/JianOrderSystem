@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/CreateVendor.css">
+    <title>進銷存</title>
+</head>
+<body>
+    <h1>新增廠商資訊</h1>
+    <span>
+        <input type="button" value="返回上頁" onclick="location.href='./Vendor.html'">
+        <input type="button" value="儲存資料" onclick="SetValue()">
+    </span>
+    <form>
+        <fieldset>
+            <legend>
+                <h3>公司資訊</h3>
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="VendorID">廠商流水號</label></td>
+                    <td><input class="VinP" id="VendorID" type="text" value=""></td>
+                    <td><label for="VendorName">公司抬頭</label></td>
+                    <td><input class="VinP" id="VendorName" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="VendorBoss">負責人</label></td>
+                    <td><input class="VinP" id="VendorBoss" type="text" value=""></td>
+                    <td><label for="VCompanyID">統編</label></td>
+                    <td><input class="VinP" id="VCompanyID" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="VendorPhone">電話</label></td>
+                    <td><input class="VinP" id="VendorPhone" type="text" value=""></td>
+                    <td><label for="VendorFax">傳真</label></td>
+                    <td><input class="VinP" id="VendorFax" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="VendorAddress">地址</label></td>
+                    <td colspan="3"><input 
+                        class="VinP" id="VendorAddress" type="text"
+                        value=""></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>聯絡人資訊</h3>
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="VendorContactPerson">姓名</label></td>
+                    <td><input class="VinP" id="VendorContactPerson" type="text" value=""></td>
+                    <td><label for="VendorJobTitle">職稱</label></td>
+                    <td><input class="VinP" id="VendorJobTitle" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="VPLine">Line-ID</label></td>
+                    <td><input class="VinP" id="VPLine" type="text" value=""></td>
+                    <td><label for="CPPhone">電話</label></td>
+                    <td><input class="VinP" id="VPPhone" type="text" value=""></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+<script src="./JS/CreateVendor.js"></script>
+</html>

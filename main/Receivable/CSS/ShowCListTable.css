@@ -1,0 +1,64 @@
+#fDiv{
+    margin: auto;
+    border: 2px solid #9a484c;
+    width: 1000px;
+    height: 550px;
+    text-align: center;
+    overflow-y: auto;
+    position: relative;
+}
+table {
+    margin: 15px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    
+    padding: 5px;
+    text-align: center;
+}
+#top1{
+    color: #9a484c;
+}
+tr>td:nth-child(5),
+tr>td:nth-child(6),
+tr>td:nth-child(7),
+tr>td:nth-child(8){
+    text-align: right;
+}
+tr>td:nth-child(1),
+tr>td:nth-child(2),
+tr>td:nth-child(3),
+tr>td:nth-child(4){
+    text-align: left;
+}
+span{
+    position: relative;
+    left: -400px;
+    top: -15px
+}
+span>input{
+    margin: 0px;
+}
+h1{
+    position: relative;
+    top: 20px;
+}
+h3{
+    position: relative;
+}
+#insideDiv{
+    text-align:right;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+#sunTotal{
+    font-style: 24px;
+    font-weight: bold;
+}
+input {
+    margin: 16px 20px;
+    padding: 5px;
+    font-size: 16px;
+}

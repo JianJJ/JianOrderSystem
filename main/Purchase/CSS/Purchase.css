@@ -1,0 +1,55 @@
+div {
+    margin: auto;
+    width: 1000px;
+    height: 550px;
+    overflow-y: auto;
+}
+
+table {
+    margin: 15px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead tr th {
+    position:sticky;
+    top:0;
+}
+td,th {
+    border: 1px solid #56789a;
+    padding: 5px;
+}
+th{
+    background-color: rgba(215, 192, 161);
+}
+
+#top1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #56789a;
+}
+
+input {
+    margin: 16px 20px;
+    font-size: 16px;
+}
+span{
+    position: relative;
+    left: -370px;
+}
+span>input{
+    margin: 0px;
+}
+h1{
+    position: relative;
+    top: 20px;
+}
+td>input{
+    margin: auto;
+    width: 100%;
+}
+.ShowOrder{
+    background-image: url(../../Icon/look.png);
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+}

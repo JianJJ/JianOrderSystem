@@ -1,0 +1,35 @@
+div{
+    margin: 20px auto;
+    width: 700px;
+    height: 550px;
+    text-align: center;
+    overflow-y: auto;   
+}
+table{
+    margin:15px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td{
+    border: 1px #7b8b6f solid;
+    padding: 5px;
+}
+#top1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #7b8b6f;
+}
+input {
+    font-size: 16px;
+}
+span{
+    position: relative;
+    left: -180px;
+}
+span>input{
+    margin: 0px;
+}
+h1{
+    position: relative;
+    top: 20px;
+}

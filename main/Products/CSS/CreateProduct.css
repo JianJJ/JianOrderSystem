@@ -1,0 +1,46 @@
+form {
+    margin: auto;
+    width: 800px;
+    border-radius: 40px 40px;
+}
+
+input,
+select {
+    margin: 16px 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#ProductName,
+#ProductSP,
+#ProductNameID {
+    width: 530px;
+}
+
+fieldset {
+    border: 2px #7f867b solid;
+    margin: 20px;
+    border-radius: 40px 40px;
+    background-color: rgb(212, 200, 190, 0.5);
+    text-align: left;
+    padding-left: 50px;
+}
+legend {
+    padding-left: 15px;
+}
+span{
+    position: relative;
+    left: -260px;
+}
+span>input{
+    margin: 0px;
+}
+h1{
+    position: relative;
+    top: 20px;
+}
+input {
+    margin: 16px 20px;
+    padding: 5px;
+    font-size: 16px;
+}

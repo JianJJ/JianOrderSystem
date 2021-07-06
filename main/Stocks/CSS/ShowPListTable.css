@@ -1,0 +1,39 @@
+#fDiv{
+    margin: auto;
+    border: 2px solid #7b8b6f;
+    position: relative;
+    width: 700px;
+    height: 550px;
+    text-align: center;
+    overflow-y: auto;
+}
+table {
+    margin: 15px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td {
+    border: 1px solid #7b8b6f;
+    padding: 5px;
+    text-align: center;
+}
+span{
+    position: relative;
+    left: -250px;
+    top: -15px
+}
+span>input{
+    margin: 0px;
+}
+h1{
+    position: relative;
+    top: 20px;
+}
+h3{
+    position: relative;
+}
+input {
+    margin: 16px 20px;
+    padding: 5px;
+    font-size: 16px;
+}

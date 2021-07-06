@@ -1,0 +1,10 @@
+html,body{
+    height: 550px;
+    text-align: center;
+    font-family:monospace;
+    font-size: 20px;
+}
+html{
+    background-color: rgba(215, 192, 161, 0.4);
+    color:#3f3736;
+}

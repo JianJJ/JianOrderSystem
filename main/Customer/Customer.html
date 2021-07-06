@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/Customer.css">
+    <title>進銷存</title>
+</head>
+
+<body>
+    <h1>客戶資料</h1>
+<span>
+    <input type="button" value="返回上頁" onclick="location.href='../start.html'">    
+    <input type="button" value="查詢資料" onclick="inNumber()">
+    <input type="button" value="新增客戶" onclick="location.href='./CreateCustomer.html'">
+</span>
+    <div>
+        <table id="CTable">
+            <tr id="top1">
+                <td style="width: 60px;">編號</td>
+                <td style="width: 180px;">公司名稱</td>
+                <td style="width: 140px;">電話</td>
+                <td style="width: 140px;">傳真</td>
+                <td style="width: 380px;">地址</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./JS/Customer.js"></script>
+
+</html>

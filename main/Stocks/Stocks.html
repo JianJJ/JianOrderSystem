@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/Stocks.css">
+    <script src="../jq_Js/jquery-3.4.1.js"></script>
+    <title>進銷存</title>
+</head>
+<body>
+    <h1>庫存數量</h1>
+    <span>
+        <input type="button" value="返回上頁" onclick="location.href='../start.html'">
+    </span>
+    <div>
+        <table>
+            <tr>
+                <td>
+                <label for="">顯示狀態:</label>
+                </td>
+                <td>
+                    <input value="PListTable" name="show" type="radio" id="PListTable" checked>
+                    <label for="PListTable">各別供應商</label>
+                    <input value="PTotalTable" name="show" type="radio" id="PTotalTable">
+                    <label for="PTotalTable">全部產品</label>
+                </td>
+            </tr>
+            <tr id="Ven">
+                <td><label name="showVendor" for="VendorName">選擇供應商:</label></td>
+                <td><select name="showVendor" id="VendorName" ></select></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="inquire" type="button" value="查詢"></td>
+                
+            </tr>
+        </table>
+    </div>
+    
+</body>
+<script src="./JS/Stocks.js"></script>
+</html>

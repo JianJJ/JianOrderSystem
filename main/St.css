@@ -1,0 +1,88 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1{
+    color:#3f3736;
+    position: fixed;
+    left: 41%;
+}
+#outside{
+    width: 1000px;
+    height: 1000px;
+}
+div {
+    
+    width: 180px;
+    text-align: center;
+    vertical-align: middle;
+    padding:20px 10px;
+}
+#a,#b,#c,#e,
+#f,#g,#h,#d {
+    border-radius: 20px 20px;
+    cursor: pointer;
+}
+#a {
+    position: fixed;
+    top: 20%;
+    left: 19%;
+}
+
+#b {
+    position: fixed;
+    top: 40%;
+    left: 44%;
+}
+
+#c {
+    position: fixed;
+    top: 20%;
+    left: 69%;
+}
+
+#e {
+    position: fixed;
+    top: 40%;
+    left: 19%;
+}
+
+#f {
+    position: fixed;
+    top: 60%;
+    left: 19%;
+}
+
+#g {
+    position: fixed;
+    top: 40%;
+    left: 69%;
+}
+
+#h {
+    position: fixed;
+    top: 60%;
+    left: 69%;
+}
+#d {
+    position: fixed;
+    top: 60%;
+    left: 44%;
+}
+.CO{
+    border: 3px solid #965454;
+    color:#965454;
+    font-weight: bolder;
+    background-color: rgba(215, 192, 161, 0.4);
+}
+.PD{
+    border: 3px solid #7b8b6f;
+    color:#7b8b6f;
+    font-weight: bolder;
+    background-color: rgba(215, 192, 161, 0.4);
+}
+.VE{
+    border: 3px solid #56789a;
+    color: #56789a;
+    font-weight: bolder;
+    background-color: rgba(215, 192, 161, 0.4);
+}

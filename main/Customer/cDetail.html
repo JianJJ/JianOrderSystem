@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/cDetail.css">
+    <title>進銷存</title>
+</head>
+
+<body>
+    <h1>客戶-詳細資料</h1>
+    <span>
+        <input id="Bbtn" type="button" value="返回上頁" onclick="location.href='./Customer.html'">
+        <input id="Fbtn" type="button" value="修改" onclick="OpenInput('outP'),showbtn()">
+        <input id="Sbtn" style="visibility: hidden;"  type="button" value="儲存" onclick="KeepALT()">
+        <input id="Cbtn" style="visibility: hidden;" type="button" value="刪除此筆資料" onclick="DeleteThis()">
+    </span>
+    <form>
+        <fieldset>
+            <legend>
+                <h3>公司資訊</h3>
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="CustomerID">客戶編號</label></td>
+                    <td><input class="outP" id="CustomerID" type="text" value=""></td>
+                    <td><label for="CustomerName">公司抬頭</label></td>
+                    <td><input class="outP" id="CustomerName" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="CustomerBoss">負責人</label></td>
+                    <td><input class="outP" id="CustomerBoss" type="text" value=""></td>
+                    <td><label for="CCompanyID">統編</label></td>
+                    <td><input class="outP" id="CCompanyID" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="CustomerPhone">電話</label></td>
+                    <td><input class="outP" id="CustomerPhone" type="text" value=""></td>
+                    <td><label for="CustomerFax">傳真</label></td>
+                    <td><input class="outP" id="CustomerFax" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="CustomerAddress">地址</label></td>
+                    <td colspan="3"><input 
+                        class="outP" id="CustomerAddress" type="text"
+                        value=""></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h3>聯絡人資訊</h3>
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="ContactPerson">姓名</label></td>
+                    <td><input class="outP" id="ContactPerson" type="text" value=""></td>
+                    <td><label for="JobTitle">職稱</label></td>
+                    <td><input class="outP" id="JobTitle" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="CPLine">Line-ID</label></td>
+                    <td><input class="outP" id="CPLine" type="text" value=""></td>
+                    <td><label for="CPPhone">電話</label></td>
+                    <td><input class="outP" id="CPPhone" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="ShipAddress">送貨地址</label></td>
+                    <td colspan="3"><input 
+                        class="outP" id="ShipAddress" type="text"
+                        value=""></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+<script src="./JS/cDetail.js"></script>
+</html>

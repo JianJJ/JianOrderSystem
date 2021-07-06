@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/pDetail.css">
+    <title>進銷存</title>
+</head>
+
+<body>
+    <h1>產品-詳細資料</h1>
+    <span>
+        <input id="Bbtn" type="button" value="返回上頁" onclick="location.href='./Products.html'">
+        <input id="Fbtn" type="button" value="修改" onclick="OpenInput('Proda'),showbtn()">
+        <input id="Sbtn" style="visibility: hidden;"  type="button" value="儲存" onclick="KeepALT()">
+        <input id="Cbtn" style="visibility: hidden;" type="button" value="刪除此筆資料" onclick="DeleteThis()"></body>
+    </span>
+    <form>
+        <fieldset>
+            <legend>
+                <h3>Products</h3>
+            </legend>
+            <table>
+                <tr>
+                    <td><label for="ProductID">編號</label></td>
+                    <td><input class="Proda" id="ProductID" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="ProductNameID">產品型號</label></td>
+                    <td colspan="3"><input class="Proda" id="ProductNameID" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="ProductName">產品名稱</label></td>
+                    <td colspan="3"><input class="Proda" id="ProductName" type="text" value=""></td>
+                </tr>
+                <tr>
+
+                    <td><label for="ProductShort">簡稱</label></td>
+                    <td><input class="Proda" id="ProductShort" type="text" value=""></td>
+                </tr>
+                <tr>
+
+                    <td><label for="ProductSP">規格</label></td>
+                    <td colspan="3"><input class="Proda" id="ProductSP" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="VendorName">供應商</label></td>
+                    <td><input class="Proda" id="VendorName" type="text" value=""></td>
+                </tr>
+                <tr>
+                    <td><label for="inPrice">進貨價格</label></td>
+                    <td><input class="Proda" id="inPrice" type="text" value=""
+                        onkeyup="value=value.replace(/[^\d\.]/g,'')"></td>
+                </tr>
+                <tr>
+                    <td><label for="outPrice">售價</label></td>
+                    <td><input class="Proda" id="outPrice" type="text" value=""
+                        onkeyup="value=value.replace(/[^\d\.]/g,'')"></td>
+                    <td><label for="StockNum">庫存數量</label></td>
+                    <td><input class="Proda" id="StockNum" type="text" value=""
+                        onkeyup="value=value.replace(/[^\d\.]/g,'')"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+<script src="./JS/pDetail.js"></script>
+
+</html>

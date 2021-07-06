@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../All.css">
+    <link rel="stylesheet" href="./CSS/Receivable.css">
+    <script src="../jq_Js/jquery-3.4.1.js"></script>
+    <title>進銷存</title>
+
+</head>
+<body>
+    <h1>應收帳款</h1>
+    <span>
+        <input type="button" value="返回上頁" onclick="location.href='../start.html'">
+    </span>
+    <div>
+        <table>
+            <tr>
+                <td>
+                <label for="">顯示狀態:</label>
+                </td>
+                <td>
+                    <input value="CListTable" name="show" type="radio" id="CListTable" checked>
+                    <label for="CListTable">明細表</label>
+                    <input value="CTotalTable" name="show" type="radio" id="CTotalTable">
+                    <label for="CTotalTable">總表</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="startDate">日期區間:</label></td>
+                <td><input type="text" id="startDate" placeholder="ex: 1100401"><span>~</span>
+                    <input type="text" id="endDate" placeholder="ex: 1100430"></td>
+            </tr>
+            <tr id="CusTr">
+                <td><label name="showCustomer" for="CustomerName">選擇客戶:</label></td>
+                <td><select name="showCustomer" id="CustomerName" ></select></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input id="inquire" type="button" value="查詢"></td>
+                
+            </tr>
+        </table>
+    </div>
+    
+</body>
+<script src="./JS/Receivable.js"></script>
+</html>
